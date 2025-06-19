@@ -1,13 +1,14 @@
-<html> 
-    <head>
-        <style> 
-            /* ul li :first-child {
+<!-- <html>
+
+<head>
+    <style>
+        /* ul li :first-child {
                 background-color: aqua;
             }
             ul li:hover{
                 background-color: blue;
             } */
-             /* ul li:nth-child(even) {
+        /* ul li:nth-child(even) {
                 background-color: brown;
              }
              input:hover{
@@ -16,25 +17,210 @@
              input:focus{
                 background-color: blueviolet;
              } */
- h3::before{
+        h3::before {
             content: " helllo";
             background-color: aquamarine;
-         }
-         h3::after{
-            content:" byyy";
+        }
+
+        h3::after {
+            content: " byyy";
             background-color: blue;
-         }
-        </style>
-    </head>
-    <body>
-         <!-- <ul>
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <ul>
             <li> one</li>
             <li> two</li>
             <li>three</li>
             <li>four</li>
          </ul>
          <input type="text"> -->
-         <h3>hiii</h3>
+    <!-- <h3>hiii</h3>
+</body>
+
+</html> -->
+<!-- 
+
+<html>
+    <head>
+<style>
+    #parent{
+        background-color: blanchedalmond;
+    }
+    #child{
+        background-color: blueviolet;
+    }
+</style>
+    </head>
+    <body> 
+<div id="parent">
+    <div id="child">
+
+    </div>
+</div>
     </body>
-    
+</html> -->
+
+<!-- <html>
+    <head>
+<style>
+    #parent{
+        background-color: rgb(105, 232, 14);
+        height: 50vh;
+        width: 50vw;
+    }
+    #child{
+        background-color: blueviolet;
+        height: 10vh;
+        width: 10w;
+    }
+</style>
+    </head>
+    <body> 
+<div id="parent">
+    <div id="child">
+
+    </div>
+</div>
+    </body> -->
+
+    <!-- <html>
+        <head>
+
+        </head>
+        <body>
+            <ul>
+                <li>1
+                    <ul>
+                        <li>1.1
+                            <ul>
+                                <li> 1.1.1</li>
+                            </ul>
+                        </li>
+                        <li>1.2</li>
+                    </ul>
+                </li>
+                <li>1</li>
+            </ul>
+        </body>
+    </html> -->
+<html>
+        <head>
+            <style> 
+                div:nth-of-type(1){
+                    
+                    background-color: rgb(236, 142, 12);
+                     height: 200px;
+                     width: 200px;
+
+                }
+                div:nth-of-type(2){
+                
+                    background-color: rgb(21, 72, 237);
+                      height: 200px;
+                     width: 200px;
+
+
+                }
+                div:nth-of-type(3){
+                    background-color: brown;
+   height: 200px;
+                     width: 200px;
+
+                    
+                }
+                 
+            </style>
+        </head>
+        <body>
+            <div> </div>
+            <div> </div>
+            <div> </div>
+             
+        </body>
+    </html>
+
+    <html>
+        <head>
+            <style>
+                #parents {
+                    
+                    border-radius: 2%;
+                    height: 300px;
+                    width: 400px;
+                    position: relative;
+                    
+
+                }
+                 #parents :hover #child{
+                    background-color: blue;
+                    height: 10px;
+                    width: 20px;
+                }
+            </style>
+        </head>
+        <body>
+            <div id="parents" style="border:2px solid rgb(41, 230, 12)" >
+                <div id="child"   style="width: 20px; height: 20px ; " >
+
+                </div>
+            </div  >
+        </body>
+     </html>
+
+       <html>
+        <head>
+<style> 
+    div{
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+        position:fixed;
+        top: 100px;
+    }
+</style>
+        </head>
+        <body>
+            <div> </div>
+            
+            <p> </p>
+        </body>
+
+      </html>
+
+      <html>
+
+<head>
+    <style>
+        #parents {
+            border: 2px solid red;
+            height: 300px;
+            width: 300px;
+            position: relative;
+            top: 20px;
+        }
+
+        #child {
+            height: 50px;
+            width: 50px;
+            position: sticky;
+            background-color: aqua;
+            top: 20px;
+        }
+
+        .content {
+            height: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parents">
+        <div id="child"></div>
+        <div class="content"></div>
+    </div>
+</body>
+
 </html>
